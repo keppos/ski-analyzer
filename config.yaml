@@ -1,0 +1,9 @@
+path: D:\Users\Kevin\VSC Projects\ski-analyzer\data # dataset root dir
+train: images/train # train images
+val: images/train # validation images
+# test: dataset/test # test images
+
+# classes
+names:
+  0: skier
+  1: snowboarder
