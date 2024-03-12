@@ -2,7 +2,7 @@ import os
 from ultralytics import YOLO
 import cv2
 
-video_path = os.path.join('data/images/test/testvideo2.mp4')
+video_path = os.path.join('data/images/test/testvideo1.mp4')
 video_path_out = '{}_out.mp4'.format(video_path)
 
 cap = cv2.VideoCapture(video_path)
